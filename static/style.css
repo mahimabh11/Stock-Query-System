@@ -1,0 +1,187 @@
+html{
+    background-color: #6060a9;
+    overflow-x: hidden; 
+
+}
+body{
+  margin-top: 30px;
+  margin-left: 300px;
+}
+#newForm {
+    /* Center the form on the page */
+    width: 800px;
+    height:200px;
+    /* Form outline */
+    padding-top: 10px;
+    border-radius: 4px;
+    background-color: #e6e6e6;
+    text-align: center;
+  }
+#ticker
+{
+  border:none;
+  width: 130px;
+  border-radius: 4px;
+  height: 15px;
+}
+#newForm h1{
+    text-align: center;
+}
+input.formbutton{
+    padding: 6px 20px;
+    background-color: #f8f8f8;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 90px;
+    margin-left: 20px;
+    margin-top:10px;
+    border-style: none;
+}
+input.formbutton:hover {
+  background-color: #cccccc;
+}
+input.formbutton:active {
+  box-shadow: black;
+}
+
+#err{
+  margin-top: 50px;
+  font-family: Helvetica, sans-serif;
+
+}
+label:after {
+    content:"*";
+    color:red;
+    padding-right: 10px;
+  }
+hr{
+    color: solid #e6e6e6;
+    width: 800px;
+    height: 1px;
+    float: left;
+    background-color:#e6e6e6 ;
+}
+
+#details{
+  position: fixed;
+  text-align: center;
+  width: 800px;
+}
+/* Style the tab */
+.tabs_container {
+    margin-top: 20px;
+    align-self: center;
+    overflow: hidden;
+    width: 800px;
+    border-color: solid #6060a9;
+    background-color:#ededed;
+  }
+
+  /* Style the buttons that are used to open the tab content */
+.tabs_container button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+}
+.tabs_container button:hover {
+    background-color:#e6e6e6;
+  }
+.tabs_container button:active{
+   background-color: #cccccc;
+}
+
+.tablinks
+{
+  background-color: #cccccc;
+}
+#secondForm
+{
+    width: 800px;
+    position: absolute;
+    /* Form outline */
+    margin-top: 30px;
+    border: #CCC;
+    border-radius: 0px;
+    /*background-color: #e8e8e8; */
+    background-color: #6060a9;
+    text-align: center;
+}
+.tabdiv1{
+  background-color: #ededed;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+table{
+    align-self: stretch;
+    width: 800px;
+    border-collapse: collapse;
+    outline:none;
+}
+.a{
+  background-color:#e8e6e6;
+  width:225px;
+  text-align:left ;
+  border-bottom: 1px solid #e2dede;
+  border-left: none;
+  border-right: none;
+  border-left: none;
+}
+.b{
+  border-bottom: 1px solid #e2dede;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  background-color: #ededed;
+  border-left: none;
+  border-right: none;
+  border-left: none;
+}
+
+.newsdiv
+{
+  width: 800px;
+  height: 90px;
+  background-color: #e8e8e8;
+  /*border-top: 10px solid #6060a9; */
+  border-radius: 4px;
+  
+}
+.contain{
+  padding-top: 10px;
+  line-height: 3pt;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  text-align: left;
+
+}
+.contain B{
+  font-size: 14;
+  line-height: 10pt;
+}
+.newsgap
+{
+  height:10px;
+  width:800px;
+  background-color: #6060a9;
+}
+.newsimage{
+  width: 80px;
+  height:70px;
+  padding: 10px;
+  float: left;
+}
+
+.imgtd{
+  width: 40px;
+  height:40px;
+}
+
+#hcdiv{
+  height: 400px; 
+  min-width: 310px;
+}
